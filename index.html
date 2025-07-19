@@ -1,237 +1,461 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>B.Pharm. Student Portfolio</title>
+    <title>Mayank Gupta | B.Pharm Portfolio</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Inter:wght@400;500;600;700&display=swap"
-        rel="stylesheet">
-        <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+ 
 </head>
-<body class="bg-gradient-dark text-gray-100 scroll-smooth">
-    <!-- Navbar -->
-    <nav class="glassmorphism fixed w-full z-20 top-0 animate-slideIn shadow-lg" id="navbar">
+<body>
+    <!-- Animated Background -->
+    <div class="animated-bg"></div>
+
+    <!-- Navigation -->
+    <nav class="glass-card fixed w-full z-50 top-0">
         <div class="container mx-auto px-6 py-4 flex justify-between items-center">
-            <a href="#" class="text-3xl font-bold text-pink-500 tracking-tight">Portfolio</a>
-            <div class="hidden md:flex space-x-12">
-                <a href="#home"
-                    class="nav-link text-gray-200 hover:text-pink-500 transition duration-300 font-medium">Home</a>
-                <a href="#about"
-                    class="nav-link text-gray-200 hover:text-pink-500 transition duration-300 font-medium">About</a>
-                <a href="#skills"
-                    class="nav-link text-gray-200 hover:text-pink-500 transition duration-300 font-medium">Skills</a>
-                <a href="#education"
-                    class="nav-link text-gray-200 hover:text-pink-500 transition duration-300 font-medium">Education</a>
-                <a href="#projects"
-                    class="nav-link text-gray-200 hover:text-pink-500 transition duration-300 font-medium">Projects</a>
-                <a href="#contact"
-                    class="nav-link text-gray-200 hover:text-pink-500 transition duration-300 font-medium">Contact</a>
+            <a href="#" class="text-2xl font-bold gradient-text">Mayank Gupta</a>
+            <div class="hidden md:flex space-x-8">
+                <a href="#home" class="nav-link text-gray-300 hover:text-white font-medium">Home</a>
+                <a href="#about" class="nav-link text-gray-300 hover:text-white font-medium">About</a>
+                <a href="#skills" class="nav-link text-gray-300 hover:text-white font-medium">Skills</a>
+                <a href="#education" class="nav-link text-gray-300 hover:text-white font-medium">Education</a>
+                <a href="#certificates" class="nav-link text-gray-300 hover:text-white font-medium">Certificates</a>
+                <a href="#contact" class="nav-link text-gray-300 hover:text-white font-medium">Contact</a>
             </div>
-            <button class="md:hidden text-pink-500" onclick="toggleMenu()">
+            <button class="md:hidden text-white" onclick="toggleMenu()">
                 <i class="fas fa-bars text-2xl"></i>
             </button>
         </div>
         <!-- Mobile Menu -->
-        <div id="mobileMenu" class="hidden md:hidden bg-gray-900 glassmorphism">
-            <a href="#home"
-                class="block px-6 py-3 hover:bg-gray-800 hover:text-pink-500 transition font-medium">Home</a>
-            <a href="#about"
-                class="block px-6 py-3 hover:bg-gray-800 hover:text-pink-500 transition font-medium">About</a>
-            <a href="#skills"
-                class="block px-6 py-3 hover:bg-gray-800 hover:text-pink-500 transition font-medium">Skills</a>
-            <a href="#education"
-                class="block px-6 py-3 hover:bg-gray-800 hover:text-pink-500 transition font-medium">Education</a>
-            <a href="#projects"
-                class="block px-6 py-3 hover:bg-gray-800 hover:text-pink-500 transition font-medium">Projects</a>
-            <a href="#contact"
-                class="block px-6 py-3 hover:bg-gray-800 hover:text-pink-500 transition font-medium">Contact</a>
+        <div id="mobileMenu" class="hidden md:hidden glass-card bg-gray-900">
+            <div class="flex flex-col space-y-2 p-4">
+                <a href="#home" class="nav-link text-gray-300 hover:text-white px-4 py-2 rounded-lg transition">Home</a>
+                <a href="#about" class="nav-link text-gray-300 hover:text-white px-4 py-2 rounded-lg transition">About</a>
+                <a href="#skills" class="nav-link text-gray-300 hover:text-white px-4 py-2 rounded-lg transition">Skills</a>
+                <a href="#education" class="nav-link text-gray-300 hover:text-white px-4 py-2 rounded-lg transition">Education</a>
+                <a href="#certificates" class="nav-link text-gray-300 hover:text-white px-4 py-2 rounded-lg transition">Certificates</a>
+                <a href="#contact" class="nav-link text-gray-300 hover:text-white px-4 py-2 rounded-lg transition">Contact</a>
+            </div>
         </div>
     </nav>
 
     <!-- Hero Section -->
-    <section id="home"
-        class="min-h-screen flex items-center justify-center pt-24 bg-gradient-to-b from-gray-900 to-gray-800 relative hero-bg animate-fade-in">
-        <div class="container mx-auto px-6 flex flex-col md:flex-row items-center gap-12 z-10">
+    <section id="home" class="min-h-screen flex items-center justify-center pt-20 px-6">
+        <div class="container mx-auto flex flex-col md:flex-row items-center gap-12 z-10 animate-fade-in">
             <div class="md:w-1/2 text-center md:text-left">
-                <h1 class="text-5xl md:text-6xl font-extrabold text-white leading-tight">
-                    Hello, I'm <span class="text-pink-500">Mayank Gupta</span>
+                <h1 class="text-4xl md:text-6xl font-bold text-white leading-tight mb-6">
+                    Hello, I'm <span class="gradient-text">Mayank Gupta</span>
                 </h1>
-                <p class="text-xl text-gray-300 mt-6 max-w-lg">A passionate B.Pharm. student at Mangalayatan Institute
-                    of Pharmaceutical Education and Research, Manglayatan University, Aligarh, U.P. dedicated to
-                    advancing healthcare through pharmaceutical innovation.</p>
-                <div class="mt-10 flex justify-center md:justify-start gap-6">
-                    <a href="#contact"
-                        class="bg-pink-500 text-white px-8 py-3 rounded-full hover:bg-pink-600 hover-pulse transition font-semibold shadow-lg">Connect
-                        with Me</a>
-                    <a href="#projects"
-                        class="bg-blue-500 text-white px-8 py-3 rounded-full hover:bg-blue-600 hover-pulse transition font-semibold shadow-lg">Explore
-                        Projects</a>
+                <p class="text-xl text-gray-300 mb-8 max-w-lg">
+                    A passionate B.Pharm. student at Mangalayatan Institute of Pharmaceutical Education and Research, dedicated to advancing healthcare through pharmaceutical innovation.
+                </p>
+                <div class="flex flex-wrap justify-center md:justify-start gap-4">
+                    <a href="#contact" class="primary-btn">
+                        <i class="fas fa-paper-plane mr-2"></i> Contact Me
+                    </a>
+                    <a href="#certificates" class="primary-btn bg-gray-800 hover:bg-gray-700">
+                        <i class="fas fa-certificate mr-2"></i> View Certificates
+                    </a>
                 </div>
             </div>
-            <div class="md:w-1/2 mt-12 md:mt-0">
+            <div class="md:w-1/2 mt-12 md:mt-0 flex justify-center">
                 <div class="relative group">
-                    <img src="https://res.cloudinary.com/dyhvkv4qq/image/upload/v1750238359/uploads/mayank.jpg" alt="Profile Image"
-                        class="rounded-full mx-auto w-80 h-80 object-cover shadow-2xl border-4 border-pink-500 transition-transform duration-500 group-hover:scale-105">
-                    <div
-                        class="absolute inset-0 rounded-full bg-gradient-to-r from-pink-500/20 to-blue-500/20 blur-xl transition-opacity duration-500 group-hover:opacity-75">
-                    </div>
+                    <div class="absolute inset-0 bg-gradient-to-r from-purple-600 to-pink-600 rounded-full blur-lg opacity-75 group-hover:opacity-100 transition duration-500"></div>
+                    <img src="https://res.cloudinary.com/dyhvkv4qq/image/upload/v1750238359/uploads/mayank.jpg" alt="Mayank Gupta"
+                        class="relative rounded-full w-64 h-64 md:w-80 md:h-80 object-cover border-4 border-white/10 shadow-2xl transition duration-500 group-hover:scale-105">
                 </div>
             </div>
         </div>
     </section>
 
     <!-- About Section -->
-    <section id="about" class="py-28 bg-gray-800 animate-fade-in">
-        <div class="container mx-auto px-6">
-            <h2 class="text-4xl font-bold text-center text-pink-500">About Me</h2>
-            <div class="mt-10 max-w-3xl mx-auto text-center">
+    <section id="about" class="py-20 px-6">
+        <div class="container mx-auto">
+            <h2 class="text-3xl md:text-4xl font-bold text-center text-white mb-16 section-heading animate-fade-in">About Me</h2>
+            <div class="glass-card rounded-2xl p-8 max-w-4xl mx-auto animate-fade-in">
+                <p class="text-lg text-gray-300 leading-relaxed mb-6">
+                    As a dedicated B.Pharm. student at Manglayatan University, Aligarh, I am deeply committed to the field of pharmaceutical sciences. My academic journey has equipped me with comprehensive knowledge in pharmacology, medicinal chemistry, and pharmaceutics.
+                </p>
                 <p class="text-lg text-gray-300 leading-relaxed">
-                    As a B.Pharm. student at Manglayatan University, Aligarh, I am deeply committed to the field of
-                    pharmaceutical sciences. My academic training has honed my expertise in pharmacology, drug
-                    information, and patient care, preparing me to contribute meaningfully to the healthcare industry
-                    and also pharmaceutical industry. I thrive on challenges, whether in the lab or collaborating on
-                    innovative projects. Outside academics, I engage in health awareness campaigns, stay updated with
-                    the latest pharmaceutical research, and enjoy exploring new therapeutic approaches.
+                    Beyond academics, I actively participate in health awareness campaigns and stay updated with the latest pharmaceutical research. My goal is to contribute meaningfully to healthcare innovation through a combination of scientific knowledge and practical skills.
                 </p>
             </div>
         </div>
     </section>
 
     <!-- Skills Section -->
-    <section id="skills" class="py-28 bg-gradient-dark animate-fade-in">
-        <div class="container mx-auto px-6">
-            <h2 class="text-4xl font-bold text-center text-pink-500">Skills</h2>
-            <div class="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8">
-                <div
-                    class="card-gradient bg-gray-800 p-8 rounded-2xl shadow-xl hover:bg-gray-700 transition transform hover:-translate-y-3">
-                    <i class="fas fa-flask text-4xl text-blue-500 mb-6"></i>
-                    <h3 class="text-2xl font-semibold text-white">Pharmaceutical Sciences</h3>
-                    <p class="text-gray-300 mt-4">In-depth knowledge of drug formulation, pharmacokinetics, and
-                        pharmacodynamics.</p>
+    <section id="skills" class="py-20 px-6 bg-gray-900/50">
+        <div class="container mx-auto">
+            <h2 class="text-3xl md:text-4xl font-bold text-center text-white mb-16 section-heading animate-fade-in">My Skills</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Skill Cards -->
+                <div class="glass-card rounded-2xl p-6 hover:border-purple-500/30 transition animate-fade-in">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 rounded-full bg-purple-500/10 flex items-center justify-center mr-4">
+                            <i class="fas fa-flask text-2xl text-purple-500"></i>
+                        </div>
+                        <h3 class="text-xl font-semibold text-white">Pharmaceutical Sciences</h3>
+                    </div>
+                    <p class="text-gray-400">Expertise in drug formulation, pharmacokinetics, and pharmacodynamics with hands-on laboratory experience.</p>
                 </div>
-                <div
-                    class="card-gradient bg-gray-800 p-8 rounded-2xl shadow-xl hover:bg-gray-700 transition transform hover:-translate-y-3">
-                    <i class="fas fa-vial text-4xl text-blue-500 mb-6"></i>
-                    <h3 class="text-2xl font-semibold text-white">Laboratory Techniques</h3>
-                    <p class="text-gray-300 mt-4">Proficient in operating lab equipment, conducting experiments, and
-                        adhering to safety standards.</p>
+                
+                <div class="glass-card rounded-2xl p-6 hover:border-pink-500/30 transition animate-fade-in">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 rounded-full bg-pink-500/10 flex items-center justify-center mr-4">
+                            <i class="fas fa-vial text-2xl text-pink-500"></i>
+                        </div>
+                        <h3 class="text-xl font-semibold text-white">Laboratory Techniques</h3>
+                    </div>
+                    <p class="text-gray-400">Proficient in operating advanced lab equipment and conducting precise pharmaceutical experiments.</p>
                 </div>
-                <div
-                    class="card-gradient bg-gray-800 p-8 rounded-2xl shadow-xl hover:bg-gray-700 transition transform hover:-translate-y-3">
-                    <i class="fas fa-comment-dots text-4xl text-blue-500 mb-6"></i>
-                    <h3 class="text-2xl font-semibold text-white">Patient Counseling</h3>
-                    <p class="text-gray-300 mt-4">Skilled in communicating effectively to educate patients on medication
-                        use.</p>
+                
+                <div class="glass-card rounded-2xl p-6 hover:border-blue-500/30 transition animate-fade-in">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 rounded-full bg-blue-500/10 flex items-center justify-center mr-4">
+                            <i class="fas fa-comment-medical text-2xl text-blue-500"></i>
+                        </div>
+                        <h3 class="text-xl font-semibold text-white">Patient Counseling</h3>
+                    </div>
+                    <p class="text-gray-400">Effective communication skills for educating patients about medication use and healthcare management.</p>
                 </div>
-                <div
-                    class="card-gradient bg-gray-800 p-8 rounded-2xl shadow-xl hover:bg-gray-700 transition transform hover:-translate-y-3">
-                    <i class="fas fa-laptop-medical text-4xl text-blue-500 mb-6"></i>
-                    <h3 class="text-2xl font-semibold text-white">Pharmacy Software</h3>
-                    <p class="text-gray-300 mt-4">Experienced with pharmacy management systems and data analysis tools.
-                    </p>
+                
+                <div class="glass-card rounded-2xl p-6 hover:border-purple-500/30 transition animate-fade-in">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 rounded-full bg-purple-500/10 flex items-center justify-center mr-4">
+                            <i class="fas fa-laptop-medical text-2xl text-purple-500"></i>
+                        </div>
+                        <h3 class="text-xl font-semibold text-white">Pharmacy Software</h3>
+                    </div>
+                    <p class="text-gray-400">Experience with pharmacy management systems and pharmaceutical data analysis tools.</p>
                 </div>
-                <div
-                    class="card-gradient bg-gray-800 p-8 rounded-2xl shadow-xl hover:bg-gray-700 transition transform hover:-translate-y-3">
-                    <i class="fas fa-book-open text-4xl text-blue-500 mb-6"></i>
-                    <h3 class="text-2xl font-semibold text-white">Research & Analysis</h3>
-                    <p class="text-gray-300 mt-4">Adept at conducting literature reviews and interpreting scientific
-                        data.</p>
+                
+                <div class="glass-card rounded-2xl p-6 hover:border-pink-500/30 transition animate-fade-in">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 rounded-full bg-pink-500/10 flex items-center justify-center mr-4">
+                            <i class="fas fa-book-open text-2xl text-pink-500"></i>
+                        </div>
+                        <h3 class="text-xl font-semibold text-white">Research & Analysis</h3>
+                    </div>
+                    <p class="text-gray-400">Skilled in conducting literature reviews and interpreting complex scientific data.</p>
                 </div>
-                <div
-                    class="card-gradient bg-gray-800 p-8 rounded-2xl shadow-xl hover:bg-gray-700 transition transform hover:-translate-y-3">
-                    <i class="fas fa-users text-4xl text-blue-500 mb-6"></i>
-                    <h3 class="text-2xl font-semibold text-white">Team Collaboration</h3>
-                    <p class="text-gray-300 mt-4">Proven ability to work effectively in interdisciplinary healthcare
-                        teams.</p>
+                
+                <div class="glass-card rounded-2xl p-6 hover:border-blue-500/30 transition animate-fade-in">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 rounded-full bg-blue-500/10 flex items-center justify-center mr-4">
+                            <i class="fas fa-users text-2xl text-blue-500"></i>
+                        </div>
+                        <h3 class="text-xl font-semibold text-white">Team Collaboration</h3>
+                    </div>
+                    <p class="text-gray-400">Proven ability to work effectively in interdisciplinary healthcare and research teams.</p>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Education Section -->
-    <section id="education" class="py-28 bg-gray-800 animate-fade-in">
-        <div class="container mx-auto px-6">
-            <h2 class="text-4xl font-bold text-center text-pink-500">Education</h2>
-            <div class="mt-12 space-y-8 max-w-3xl mx-auto">
-                <div
-                    class="card-gradient bg-gray-900 p-8 rounded-2xl shadow-xl border-l-4 border-pink-500 transition hover:shadow-2xl hover:-translate-y-2">
-                    <h3 class="text-2xl font-semibold text-white">Bachelor of Pharmacy (B.Pharm.)</h3>
-                    <p class="text-gray-300 mt-2">Manglayatan University, Aligarh | 2024 - Present</p>
-                    <p class="text-gray-400 mt-4">Pursuing a comprehensive degree with coursework in pharmacology,
-                        medicinal chemistry, and pharmaceutics, preparing for a career in pharmaceutical innovation.</p>
+    <section id="education" class="py-20 px-6">
+        <div class="container mx-auto">
+            <h2 class="text-3xl md:text-4xl font-bold text-center text-white mb-16 section-heading animate-fade-in">Education</h2>
+            <div class="max-w-3xl mx-auto space-y-6">
+                <!-- Education Items -->
+                <div class="glass-card rounded-2xl p-6 border-l-4 border-purple-500 transition hover:shadow-xl animate-fade-in">
+                    <h3 class="text-xl font-semibold text-white">Bachelor of Pharmacy (B.Pharm.)</h3>
+                    <p class="text-purple-400 mt-1">Manglayatan University, Aligarh | 2024 - Present</p>
+                    <p class="text-gray-400 mt-3">Currently pursuing a comprehensive degree with coursework in pharmacology, medicinal chemistry, pharmaceutics, and pharmaceutical analysis.</p>
                 </div>
-                <div
-                    class="card-gradient bg-gray-900 p-8 rounded-2xl shadow-xl border-l-4 border-pink-500 transition hover:shadow-2xl hover:-translate-y-2">
-                    <h3 class="text-2xl font-semibold text-white">12th Standard (Science)</h3>
-                    <p class="text-gray-300 mt-2">UP BOARD |2023</p>
-                    <p class="text-gray-400 mt-4">Excelled in Physics, Chemistry, and Biology, securing top marks in
-                        board examinations.</p>
+                
+                <div class="glass-card rounded-2xl p-6 border-l-4 border-pink-500 transition hover:shadow-xl animate-fade-in">
+                    <h3 class="text-xl font-semibold text-white">12th Standard (Science Stream)</h3>
+                    <p class="text-pink-400 mt-1">UP Board | 2023</p>
+                    <p class="text-gray-400 mt-3">Completed with distinction in Physics, Chemistry, and Biology, laying a strong foundation for pharmaceutical studies.</p>
                 </div>
-                <div
-                    class="card-gradient bg-gray-900 p-8 rounded-2xl shadow-xl border-l-4 border-pink-500 transition hover:shadow-2xl hover:-translate-y-2">
-                    <h3 class="text-2xl font-semibold text-white">10th Standard</h3>
-                    <p class="text-gray-300 mt-2">UP BOARD | 2021</p>
-                    <p class="text-gray-400 mt-4">Built a strong academic foundation in science and mathematics.</p>
+                
+                <div class="glass-card rounded-2xl p-6 border-l-4 border-blue-500 transition hover:shadow-xl animate-fade-in">
+                    <h3 class="text-xl font-semibold text-white">10th Standard</h3>
+                    <p class="text-blue-400 mt-1">UP Board | 2021</p>
+                    <p class="text-gray-400 mt-3">Established excellent academic fundamentals with focus on science and mathematics.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Projects Section -->
-    <section id="projects" class="py-28 bg-gradient-dark animate-fade-in">
-        <div class="container mx-auto px-6">
-            <h2 class="text-4xl font-bold text-center text-pink-500">Projects</h2>
-            <div class="mt-12 grid grid-cols-1 md:grid-cols-2 gap-8">
-                <div
-                    class="card-gradient bg-gray-800 p-8 rounded-2xl shadow-xl hover:bg-gray-700 transition transform hover:-translate-y-3">
-                    <h3 class="text-2xl font-semibold text-white">Drug Interaction Analysis</h3>
-                    <p class="text-gray-300 mt-4">Designed a computational study to evaluate drug-drug interactions,
-                        presented at a university research symposium, showcasing analytical and presentation skills.</p>
+    <!-- Certificates Section -->
+    <section id="certificates" class="py-20 px-6 bg-gray-900/50">
+        <div class="container mx-auto">
+            <h2 class="text-3xl md:text-4xl font-bold text-center text-white mb-16 section-heading animate-fade-in">Certificates</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Certificate 1 -->
+                <div class="glass-card rounded-2xl p-6 transition animate-fade-in">
+                    <h3 class="text-xl font-semibold text-white mb-3">Empowering Pharma Marketing: Evidence-Based HCP Engagement</h3>
+                    <p class="text-gray-400 mb-4">Completed a course focused on enhancing pharmaceutical marketing by leveraging evidence-based content to engage healthcare professionals (HCPs). Gained strategies for impactful communication and value-based marketing.</p>
+                    
+                    <div class="certificate-container">
+                        <div class="certificate-overlay">
+                            <button class="view-certificate-btn" onclick="showCertificate('mayank1.jpg')">
+                                <i class="fas fa-eye mr-2"></i> View Certificate
+                            </button>
+
+                        </div>
+                        <img src="mayank1.jpg" 
+                             alt="Regulatory Deviations Certificate" 
+                             class="certificate-image">
+                    </div>
+                    
+                    <p class="text-gray-500 text-sm mt-3">
+                        <i class="fas fa-calendar-alt mr-2"></i> Issued: June 14, 2025 | 
+                        <i class="fas fa-building mr-2 ml-2"></i> PharmaState Academy
+                    </p>
                 </div>
-                <div
-                    class="card-gradient bg-gray-800 p-8 rounded-2xl shadow-xl hover:bg-gray-700 transition transform hover:-translate-y-3">
-                    <h3 class="text-2xl font-semibold text-white">Herbal Formulation Study</h3>
-                    <p class="text-gray-300 mt-4">Developed and tested a herbal-based ointment, analyzing its efficacy
-                        in controlled lab conditions, demonstrating hands-on formulation expertise.</p>
+                
+                <!-- Certificate 2 -->
+                <div class="glass-card rounded-2xl p-6 transition animate-fade-in">
+                    <h3 class="text-xl font-semibold text-white mb-3">Masterclass in AI-Based Pharma Marketing</h3>
+                    <p class="text-gray-400 mb-4">Attended a masterclass exploring the integration of Artificial Intelligence in pharma marketing. Learned about AI tools, predictive analytics, and automation strategies for smarter brand promotion.</p>
+                    
+                    <div class="certificate-container">
+                        <div class="certificate-overlay">
+                            <button class="view-certificate-btn" onclick="showCertificate('mayank2.jpg')">
+                                <i class="fas fa-eye mr-2"></i> View Certificate
+                            </button>
+
+                        </div>
+                        <img src="mayank2.jpg" 
+                             alt="Generic vs Branded Drugs Certificate" 
+                             class="certificate-image">
+                    </div>
+                    
+                    <p class="text-gray-500 text-sm mt-3">
+                        <i class="fas fa-calendar-alt mr-2"></i> Issued: June 14, 2025 | 
+                        <i class="fas fa-building mr-2 ml-2"></i> PharmaState Academy
+                    </p>
                 </div>
+                
+                <!-- Certificate 3 -->
+                <div class="glass-card rounded-2xl p-6 transition animate-fade-in">
+                    <h3 class="text-xl font-semibold text-white mb-3">Panel Discussion: Generic vs Branded Drugs – India's Perspective</h3>
+                    <p class="text-gray-400 mb-4">Participated in a panel discussion evaluating the impact, benefits, and challenges of generic vs branded drugs in the Indian healthcare system. Gained insights into regulatory and economic implications.</p>
+                    
+                    <div class="certificate-container">
+                        <div class="certificate-overlay">
+                            <button class="view-certificate-btn" onclick="showCertificate('mayank3.jpg')">
+                                <i class="fas fa-eye mr-2"></i> View Certificate
+                            </button>
+                        </div>
+                        <img src="mayank3.jpg" 
+                             alt="AI Pharma Marketing Certificate" 
+                             class="certificate-image">
+                    </div>
+                    
+                    <p class="text-gray-500 text-sm mt-3">
+                        <i class="fas fa-calendar-alt mr-2"></i> Issued: June 14, 2025 | 
+                        <i class="fas fa-building mr-2 ml-2"></i> PharmaState Academy
+                    </p>
+                </div>
+                
+                <!-- Certificate 4 -->
+                <div class="glass-card rounded-2xl p-6 transition animate-fade-in">
+                    <h3 class="text-xl font-semibold text-white mb-3">How Regulators View Deviations</h3>
+                    <p class="text-gray-400 mb-4">Completed a course detailing how regulatory authorities assess and manage deviations in pharmaceutical processes. Improved understanding of compliance standards and risk management protocols.</p>
+                    
+                    <div class="certificate-container">
+                        <div class="certificate-overlay">
+                            <button class="view-certificate-btn" onclick="showCertificate('mayank4.jpg')">
+                                <i class="fas fa-eye mr-2"></i> View Certificate
+                            </button>
+                        </div>
+                        <img src="mayank4.jpg" 
+                             alt="HCP Engagement Certificate" 
+                             class="certificate-image">
+                    </div>
+                    
+                    <p class="text-gray-500 text-sm mt-3">
+                        <i class="fas fa-calendar-alt mr-2"></i> Issued: June 14, 2025 | 
+                        <i class="fas fa-building mr-2 ml-2"></i> PharmaState Academy
+                    </p>
+                </div>
+                
+                <!-- Certificate 5 -->
+                <div class="glass-card rounded-2xl p-6 transition animate-fade-in">
+                    <h3 class="text-xl font-semibold text-white mb-3">The Current Shift: Rethinking HCP Advisory Boards (AdBoards)</h3>
+                    <p class="text-gray-400 mb-4">Explored evolving trends in how pharma brands engage with HCPs through Advisory Boards. Learned how successful brands adapt AdBoards to gather insights, improve outcomes, and drive innovation.
+</p>
+                    
+                    <div class="certificate-container">
+                        <div class="certificate-overlay">
+                            <button class="view-certificate-btn" onclick="showCertificate('mayank5.jpg')">
+                                <i class="fas fa-eye mr-2"></i> View Certificate
+                            </button>
+                        </div>
+                        <img src="mayank5.jpg" 
+                             alt="Advisory Boards Certificate" 
+                             class="certificate-image">
+                    </div>
+                    
+                    <p class="text-gray-500 text-sm mt-3">
+                        <i class="fas fa-calendar-alt mr-2"></i> Issued: June 14, 2025 | 
+                        <i class="fas fa-building mr-2 ml-2"></i> PharmaState Academy
+                    </p>
+                </div>
+                <!-- Certificate 6 -->
+                <div class="glass-card rounded-2xl p-6 transition animate-fade-in">
+                    <h3 class="text-xl font-semibold text-white mb-3">6. Pharma Enigma: Exploring Next Gen Marketing Advancements</h3>
+                    <p class="text-gray-400 mb-4">Completed an advanced course that explored emerging trends and futuristic strategies in pharmaceutical marketing. Focused on digital transformation, patient-centric approaches, and innovative tools shaping the next generation of pharma branding.
+</p>
+                    
+                    <div class="certificate-container">
+                        <div class="certificate-overlay">
+                            <button class="view-certificate-btn" onclick="showCertificate('mayank6.jpeg')">
+                                <i class="fas fa-eye mr-2"></i> View Certificate
+                            </button>
+                        </div>
+                        <img src="mayank6.jpeg" 
+                             alt="Advisory Boards Certificate" 
+                             class="certificate-image">
+                    </div>
+                    
+                    <p class="text-gray-500 text-sm mt-3">
+                        <i class="fas fa-calendar-alt mr-2"></i> Issued: June 14, 2025 | 
+                        <i class="fas fa-building mr-2 ml-2"></i> PharmaState Academy
+                    </p>
+                </div>
+                <!-- Certificate 7 -->
+                <div class="glass-card rounded-2xl p-6 transition animate-fade-in">
+                    <h3 class="text-xl font-semibold text-white mb-3">International Conference Participation – The Future of Pharmacy</h3>
+                    <p class="text-gray-400 mb-4">Received a Certificate of Appreciation at Noida International University for presenting a research paper on Lawsonia inermis during an international conference on The Future of Pharmacy. The event highlighted innovations in Pharmacogenomics, Green Pharmacy, and Personalised Pharmacy.
+                    
+                    <div class="certificate-container">
+                        <div class="certificate-overlay">
+                            <button class="view-certificate-btn" onclick="showCertificate('mayank7.jpg')">
+                                <i class="fas fa-eye mr-2"></i> View Certificate
+                            </button>
+                        </div>
+                        <img src="mayank7.jpg" 
+                             alt="Advisory Boards Certificate" 
+                             class="certificate-image">
+                    </div>
+                    
+                    <p class="text-gray-500 text-sm mt-3">
+                        <i class="fas fa-calendar-alt mr-2"></i> Issued: June 14, 2025 | 
+                        <i class="fas fa-building mr-2 ml-2"></i> PharmaState Academy
+                    </p>
+                </div>
+                
             </div>
         </div>
     </section>
 
     <!-- Contact Section -->
-    <section id="contact" class="py-28 bg-gray-800 animate-fade-in">
-        <div class="container mx-auto px-6">
-            <h2 class="text-4xl font-bold text-center text-pink-500">Connect with Me</h2>
-            <p class="text-lg text-gray-300 mt-6 max-w-2xl mx-auto text-center">I'm open to collaborations, internships,
-                or discussions about pharmaceutical advancements. Reach out via social media or email!</p>
-            <div class="mt-12 flex justify-center gap-4 flex-wrap">
-                <a href="https://www.linkedin.com/in/drxmagx61b51436b" target="_blank" class="social-btn">
-                    <i class="fab fa-linkedin text-lg"></i> LinkedIn
-                </a>
-                <a href="https://twitter.com" target="_blank" class="social-btn">
-                    <i class="fab fa-twitter text-lg"></i> Twitter
-                </a>
-                <a href="https://instagram.com" target="_blank" class="social-btn">
-                    <i class="fab fa-instagram text-lg"></i> Instagram
-                </a>
-                <a href="mailto:mg210220388@gmail.com" aria-label="Email" class="social-btn">
-                    <i class="fas fa-envelope text-lg"></i> Email
-                </a>
+    <section id="contact" class="py-20 px-6">
+        <div class="container mx-auto">
+            <h2 class="text-3xl md:text-4xl font-bold text-center text-white mb-16 section-heading animate-fade-in">Get In Touch</h2>
+            <div class="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12">
+                <div class="animate-fade-in">
+                    <h3 class="text-xl font-semibold text-white mb-4">Contact Information</h3>
+                    <p class="text-gray-400 mb-6">Feel free to reach out for collaborations, internships, or discussions about pharmaceutical advancements.</p>
+                    
+                    <div class="space-y-4">
+                        <div class="flex items-start">
+                            <div class="w-10 h-10 rounded-full bg-purple-500/10 flex items-center justify-center mr-4">
+                                <i class="fas fa-envelope text-purple-500"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-gray-300 font-medium">Email</h4>
+                                <a href="mailto:mg210220388@gmail.com" class="text-gray-400 hover:text-purple-400 transition">mg210220388@gmail.com</a>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <div class="w-10 h-10 rounded-full bg-pink-500/10 flex items-center justify-center mr-4">
+                                <i class="fab fa-linkedin-in text-pink-500"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-gray-300 font-medium">LinkedIn</h4>
+                                <a href="https://www.linkedin.com/in/drxmagx61b51436b" target="_blank" class="text-gray-400 hover:text-pink-400 transition">linkedin.com/in/drxmagx61b51436b</a>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <div class="w-10 h-10 rounded-full bg-blue-500/10 flex items-center justify-center mr-4">
+                                <i class="fas fa-map-marker-alt text-blue-500"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-gray-300 font-medium">Location</h4>
+                                <p class="text-gray-400">Aligarh, Uttar Pradesh, India</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="animate-fade-in">
+                    <h3 class="text-xl font-semibold text-white mb-4">Send Me a Message</h3>
+                    <form class="space-y-4">
+                        <div>
+                            <label for="name" class="block text-gray-300 mb-2">Your Name</label>
+                            <input type="text" id="name" class="w-full bg-gray-800 border border-gray-700 rounded-lg px-4 py-3 text-white focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent">
+                        </div>
+                        
+                        <div>
+                            <label for="email" class="block text-gray-300 mb-2">Your Email</label>
+                            <input type="email" id="email" class="w-full bg-gray-800 border border-gray-700 rounded-lg px-4 py-3 text-white focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent">
+                        </div>
+                        
+                        <div>
+                            <label for="message" class="block text-gray-300 mb-2">Your Message</label>
+                            <textarea id="message" rows="4" class="w-full bg-gray-800 border border-gray-700 rounded-lg px-4 py-3 text-white focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent"></textarea>
+                        </div>
+                        
+                        <button type="submit" class="primary-btn w-full">
+                            <i class="fas fa-paper-plane mr-2"></i> Send Message
+                        </button>
+                    </form>
+                </div>
             </div>
         </div>
     </section>
 
     <!-- Footer -->
-    <footer class="bg-gray-900 text-gray-400 py-10 text-center">
-        <p class="text-lg">© 2025 Mayank Gupta | B.Pharm. Student Portfolio. All rights reserved.</p>
-        <p class="mt-2">Crafted with <i class="fas fa-heart text-pink-500"></i> for the future of healthcare.</p>
-        <p class="mt-2">Created by <a href="https://www.linkedin.com/in/mohit-sharma-js/" target="_blank" class="text-pink-500 hover:text-pink-600 transition">Mohit Sharma</a></p>
+    <footer class="py-12 px-6 bg-gray-900 border-t border-gray-800">
+        <div class="container mx-auto">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-6 md:mb-0">
+                    <a href="#" class="text-2xl font-bold gradient-text">Mayank Gupta</a>
+                    <p class="text-gray-500 mt-2">B.Pharm. Student | Pharmaceutical Researcher</p>
+                </div>
+                
+                <div class="flex space-x-6">
+                    <a href="https://www.linkedin.com/in/drxmagx61b51436b" target="_blank" class="text-gray-400 hover:text-purple-400 transition text-xl">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://twitter.com" target="_blank" class="text-gray-400 hover:text-blue-400 transition text-xl">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="https://instagram.com" target="_blank" class="text-gray-400 hover:text-pink-400 transition text-xl">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="mailto:mg210220388@gmail.com" class="text-gray-400 hover:text-red-400 transition text-xl">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-500">
+                <p>© 2024 Mayank Gupta. All rights reserved.</p>
+                <p class="mt-2 text-sm">Designed and developed by <a href="https://www.linkedin.com/in/mohit-sharma-js/" target="_blank" class="text-purple-400 hover:text-purple-300 transition">Mohit Sharma</a></p>
+            </div>
+        </div>
     </footer>
-    <script type="module" src="index.js"></script>
-</body>
 
+    <!-- Certificate Modal -->
+    <div id="certificateModal" class="certificate-modal">
+        <span class="close-modal" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+            <img id="modalCertificate" class="modal-image" src="" alt="Certificate">
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
 </html>
